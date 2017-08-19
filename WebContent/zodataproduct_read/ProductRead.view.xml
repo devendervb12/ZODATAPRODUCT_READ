@@ -1,0 +1,23 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		xmlns:sf="sap.ui.layout.form"
+		controllerName="zodataproduct_read.ProductRead" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		   
+		    
+	         <sf:SimpleForm id="idsf">
+	                <core:Title text="Product Details"/>
+	                <Label text="ID"/>
+	                <Input value="{ProductID}"/>
+	                <Label text="Name"/>
+	                <Input value="{Name}"/>
+	                <Label text="Category"/>
+	                <Input value="{Category}"/>
+	                <Label text="Type Code"/>
+	                <Input value="{Type_Code}"/>
+	                <Label text="Description"/>
+	                <Input value="{Description}"/>
+	         </sf:SimpleForm>
+		</content>
+	</Page>
+</core:View>
